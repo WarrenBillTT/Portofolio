@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './sections/Navbar'
 
 function App() {
   return (
     <div className='container mx-auto max-w-7xl'>
-      {/* navbar */}
+      <Navbar />
       {/* hero */}
       {/* about */}
       {/* projects */}
