@@ -19,9 +19,9 @@ function Hero() {
           <Canvas camera={{ position: [0, 1, 3] }}>
             <Suspense fallback={<Loader />}>
               <Float>
-                <Character 
+                {/* <Character 
                   scale={isMobile && 0.23}
-                  position={isMobile && [0, -1.5, 0]}/>
+                  position={isMobile && [0, -1.5, 0]}/> */}
                 </Float>
               {/* <OrbitControls /> */}
               <Rig />

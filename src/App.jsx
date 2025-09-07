@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
 import About from './sections/About'
+import Projects from './sections/Projects'
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -9,15 +11,11 @@ function App() {
       <Navbar/>
       <Hero/>
       <About/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      {/* projects */}
+      <Projects/>
       {/* experience */}
       {/* testimonial */}
       {/* contact */}
-      {/* footer */}
+      <Footer/>
     </div>
   )
 }
