@@ -1,6 +1,5 @@
 import { useState } from "react"
 import { AnimatePresence, motion } from "motion/react";
-import { transition } from "three/examples/jsm/tsl/display/TransitionNode.js";
 
 const CopyEmailButton = () => {
     const [copied, setCopied] = useState(false);

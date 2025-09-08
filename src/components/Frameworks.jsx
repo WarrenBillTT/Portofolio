@@ -16,7 +16,7 @@ export function Frameworks() {
         "react",
         "sqlite",
         "tailwindcss",
-        "vite.js",
+        "vitejs",
         "wordpress",
     ]
   return (

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import ProjectDetails from './ProjectDetails'
 
 const Project = ({title, description, subDescription, href, image, tags, setPreview}) => {

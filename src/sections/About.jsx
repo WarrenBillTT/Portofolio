@@ -1,7 +1,5 @@
-import React from 'react'
 import Card from '../components/Card'
 import { useRef } from 'react';
-import { Globe } from '../components/Globe';
 import CopyEmailButton from '../components/CopyEmailButton';
 import { Frameworks } from '../components/Frameworks';
 
@@ -74,9 +72,6 @@ const About = () => {
                     I'm based in Jakarta, and open to remote work worldwide.
                 </p>
             </div>
-            <figure className='absolute left-[30%] top-[10%]'>
-                {/* <Globe /> */}
-            </figure>
         </div>
         {/* Grid 4 */}
         <div className='grid-special-color grid-4'>
