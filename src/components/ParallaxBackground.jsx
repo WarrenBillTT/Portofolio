@@ -17,7 +17,7 @@ const ParallaxBackground = () => {
         <div 
           className='absolute inset-0 w-full h-screen -z-50'
           style={{
-            backgroundImage: 'url(/assets/Background/Sky-Low.jpg)',
+            backgroundImage: 'url(/assets/Background/Sky-Fast.jpg)',
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
         }}/>
@@ -25,7 +25,7 @@ const ParallaxBackground = () => {
         <motion.div 
           className='absolute inset-0 -z-40'
           style={{
-            backgroundImage: 'url(/assets/Background/Modern-Building1-Low.png)',
+            backgroundImage: 'url(/assets/Background/Modern-Building1-Fast.png)',
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain3Y,
@@ -43,7 +43,7 @@ const ParallaxBackground = () => {
         <motion.div 
           className='absolute inset-0 -z-20'
           style={{
-            backgroundImage: 'url(/assets/Background/Modern-Building2-Low.png)',
+            backgroundImage: 'url(/assets/Background/Modern-Building2-Fast.png)',
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain2Y,
@@ -52,7 +52,7 @@ const ParallaxBackground = () => {
         <motion.div 
           className='absolute inset-0 -z-10'
           style={{
-            backgroundImage: 'url(/assets/Background/Modern-Building3-Low.png)',
+            backgroundImage: 'url(/assets/Background/Modern-Building3-Fast.png)',
             backgroundPosition: 'bottom',
             backgroundSize: 'cover',
             y: mountain1Y,
